@@ -6,7 +6,7 @@ public class main3_herencia_damian {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
 		
-		//CREACI覰 ARRAYS AUXILIARES
+		//CREACI脫N ARRAYS AUXILIARES
 		//Gestor
 		Habilidad habilidades[] = new Habilidad[55];
 		Item items[] = new Item[60];
@@ -20,7 +20,7 @@ public class main3_herencia_damian {
 		
 		
 		
-		//Prueba visualizaci髇 Habilidad	
+		//Prueba visualizaci贸n Habilidad	
 		System.out.println("visualizar Basico  Habilidad");
 		habilidades[1].visualizarBasico();
 		teclado.nextLine();
@@ -44,8 +44,8 @@ public class main3_herencia_damian {
 		auxitems[2] = items[40];
 		
 		
-		//Prueba visualizaci髇 ITEM	
-		System.out.println("visualizar B醩ico ITem");
+		//Prueba visualizaci贸n ITEM	
+		System.out.println("visualizar B谩sico ITem");
 		System.out.println("ARMADURA---------------------------------------");
 		items[1].visualizarBasico();
 		System.out.println("--------------------------------FIN ARMADURA");
@@ -70,7 +70,7 @@ public class main3_herencia_damian {
 		auxpersonajes[2] = personajes[2];
 		
 		
-		//Prueba visualizaci髇 Personaje	
+		//Prueba visualizaci贸n Personaje	
 		System.out.println("visualizar Basico personaje");
 		personajes[1].visualizarBasico();
 		teclado.nextLine();
@@ -83,7 +83,7 @@ public class main3_herencia_damian {
 		}
 		
 		
-		//Prueba visualizaci髇 Zona	
+		//Prueba visualizaci贸n Zona	
 		System.out.println("visualizar Basico zona");
 		zonas[1].visualizarBasico();
 		teclado.nextLine();
@@ -96,7 +96,7 @@ public class main3_herencia_damian {
 			misiones[i] = new Mision("nombre "+i, i, personajes[i], zonas[i], items[i], i);
 		}
 		
-		//Prueba visualizaci髇 Mision
+		//Prueba visualizaci贸n Mision
 		System.out.println("visualizar Basico Mision");
 		misiones[1].visualizarBasico();
 		teclado.nextLine();
@@ -171,7 +171,7 @@ public class main3_herencia_damian {
 		System.out.println("Finalizado los anyadir");
 		teclado.nextLine();
 		
-		//Visualizaci髇 datos
+		//Visualizaci贸n datos
 		System.out.println("-------------HABILIDADES 2-----------");
 		pruebagestor.mostrarHabilidades();
 		teclado.nextLine();
